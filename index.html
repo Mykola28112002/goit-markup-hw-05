@@ -23,7 +23,7 @@
             <a class="cap-logo" href="./index.html"><span class="cap-logo-web">Web<span
                         class="cap-logo-studio">Studio</span></span></a>
             <ul class="site-navigation">
-                <li class="item"><a class="site-navigation-link" href="./index.html">Студия</a></li>
+                <li class="item"><a class="site-navigation-link emphasis" href="./index.html">Студия</a></li>
                 <li class="item"><a class="site-navigation-link" href="./portfolio.html">Портфолио</a></li>
                 <li class="item"><a class="site-navigation-link" href="">Контакты</a></li>
             </ul>
@@ -86,9 +86,12 @@
        <div class="container">
             <h2 class="employment-title">Чем мы занимаемся</h2>
             <ul class="employment display-flex">
-                <li class="item"><img src="images/img11.jpg" alt="Програмист набирает код" width="370"></li>
-                <li class="item"><img src="images/hhhhh.jpg" alt="Програмист создаёт мобильное приложение" width="370"></li>
-                <li class="item"><img src="images/img12.jpg" alt="Програмист показывает графический дизайн" width="370"></li>
+                <li class="item"><div class="employment-blosk"><img src="images/img11.jpg" alt="Програмист набирает код" width="370">
+                    <p class="employment-text">Десктопные приложения</p></div></li>
+                <li class="item"><div class="employment-blosk"><img src="images/hhhhh.jpg" alt="Програмист создаёт мобильное приложение" width="370">
+                    <p class="employment-text">Мобильные приложения</p></div></li>
+                <li class="item"><div class="employment-blosk"><img src="images/img12.jpg" alt="Програмист показывает графический дизайн" width="370">
+                    <p class="employment-text">Дизайнерские решения</p></div></li>
             </ul>
        </div>
     </section>
@@ -254,9 +257,12 @@
 </footer>
 <div data-modal class="backdrop is-hidden">
     <div class="modal">
-        <button data-modal-close class="modal-button"><svg class="imgs">
-            <use href="images/Vector.svg"></use>
-        </svg></button>
+        <button data-modal-close class="modal-button">
+            <svg>
+                <use href="images/close.svg">
+                </use>
+            </svg>
+        </button>
     </div>
 </div>
 <script src="./js/modal.js"></script>
